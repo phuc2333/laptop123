@@ -32,7 +32,7 @@
         }
          echo'
          <tr style="text-align:center">
-         <td><img  style="margin: 20px;" src="' . $hinh . '" alt="" width="80px" height=""80px></td>
+         <td><img  style="margin: 20px;" src="upload/' . $hinh . '" alt="" width="80px" height=""80px></td>
          <td>'.$cart['name'].'</td>
          <td  style="    padding: 20px;" >'.currency_format($cart['price'],'').'</td>
          <td><input  style="margin: 20px;"  type="number" min ="1" max="10" name="qty['.$cart['id'].']" value="'.$cart['soluong'].'" class="num-order"></td>
