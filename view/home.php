@@ -63,7 +63,7 @@
                
                 $linksp = "index.php?act=sanphamct&idsp=" . $id;
                 
-                $hinh = upload/ . $img;
+                $hinh = $imgpath.$img;
                 
                 if (($i == 2) || ($i == 5) || ($i == 8)) {
                     $mr = "";
