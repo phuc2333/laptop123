@@ -23,7 +23,7 @@
                 <input type="hidden" name="price"  value="'.$price.'">
                 <input  type="hidden" name="img"  value="'.$img.'">
                 <img style="width: 350px;
-                height: 350px;" src="' . $hinh . '" alt="error img">
+                height: 350px;" src="upload/' . $hinh . '" alt="error img">
 
                <div>
                  <h3 style="font-size: 24px;
