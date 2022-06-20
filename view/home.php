@@ -62,8 +62,8 @@
                 extract($sp);
                
                 $linksp = "index.php?act=sanphamct&idsp=" . $id;
-                echo $imgpath;
-                $hinh = $imgpath . $img;
+                
+                $hinh = upload/ . $img;
                 
                 if (($i == 2) || ($i == 5) || ($i == 8)) {
                     $mr = "";
@@ -71,7 +71,7 @@
                     $mr = "mr";
                 }
                 echo '<div class="boxsp ' . $mr . '"  style="background-color: white;">
-                <div class="row img"><a href="' . $linksp . '"><img src="'. upload/$hinh . '" alt=""></a></div>
+                <div class="row img"><a href="' . $linksp . '"><img src="'. $hinh . '" alt=""></a></div>
                 <a href="' . $linksp . '" style="text-align: center;
                 color: #222;font-size:16px;
                 margin: 15px 0px 5px 0px;
