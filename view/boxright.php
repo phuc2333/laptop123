@@ -192,7 +192,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $linksp = "index.php?act=sanphamct&idsp=" . $id;
             $img = $imgpath . $img;
             echo '<div class="row mb10 top10">
-                    <img src=' . $img . ' alt=""><br>
+                    <img src="upload/' . $img . '" alt=""><br>
                     <a href=' . $linksp . '>' . $name . '</a><br><br>
                     <span style="color: #f12a43;">'.currency_format($price,'').' VNĐ</span>
                 </div>';
