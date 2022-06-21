@@ -36,7 +36,7 @@
     width: 91px;
     text-align: center;
     height: 30px;
-    line-height: 33px;"><a href="http://duan.test:8999/"style="color: black;">Thoát</a></div>
+    line-height: 33px;"><a href="https://weblaptop123.herokuapp.com/"style="color: black;">Thoát</a></div>
            </div>
            
         </div>
