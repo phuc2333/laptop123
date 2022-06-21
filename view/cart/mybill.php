@@ -7,8 +7,8 @@
             <div class="row boxcontent  frmcontent">
                 <table>
                     <tr>
-                        <th>STT</th>
                         <th>Mã đơn hàng</th>
+                        <th>Ngày đặt hàng</th>
                         <th>Số lượng mặt hàng</th>
                         <th>Tổng giá trị đơn hàng</th>
                         <th>Tình trạng đơn hàng</th>
